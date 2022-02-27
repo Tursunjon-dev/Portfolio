@@ -1,0 +1,21 @@
+.navigation{
+    width: 120px;
+    background: #222;
+    display: inline-grid;
+    height: 100vh;
+}
+.green:hover{
+    color: #1ED760;
+}
+.active{
+    width: 0;
+    height: 0;
+    border-top: 6em solid transparent;
+    border-left: 60px solid #1ED760;
+    border-bottom: 6em solid transparent;
+    transform: translate(8rem, 0rem);
+    position: fixed;
+}
+.navigation a{
+    text-decoration: none;
+}
